@@ -163,7 +163,7 @@
 	} 
 	
 	
-	@media screen and (max-width: 900px) {
+	/*@media screen and (max-width: 900px) {
 		.navbar .nav-menu {
 			display: block;
 			position: fixed;
@@ -171,7 +171,7 @@
 			top: 0;
 			width: 300px;
 			height: 100%;
-			background: red;
+			background: red;*/
 		}
 	}
 	
