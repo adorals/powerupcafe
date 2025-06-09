@@ -4,32 +4,32 @@
 		<meta charset='UTF-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 		<title>Powerup Cafe</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 		<link rel='stylesheet' href='style.css'>
 	</head>
 	<body>
 	<header>
 		<nav class='navbar section-content'>
-		<a href='#' class='nav-logo'>
+		<a href='#home' class='nav-logo'>
 			<h2 class='logo-text'> PowerUp Cafe</h2>
 		</a>
 		<ul class='nav-menu'>
 			<li class='nav-item'>
-				<a href='#' class='nav-link'>Home</a>
+				<a href='#home' class='nav-link'>Home</a>
 			</li>
 			<li class='nav-item'>
-				<a href='#' class='nav-link'>Menu</a>
+				<a href='#menu' class='nav-link'>Menu</a>
 			</li>
 			<li class='nav-item'>
-				<a href='#' class='nav-link'>Sobre</a>
+				<a href='#sobre' class='nav-link'>Sobre</a>
 			</li>
 			<li class='nav-item'>
-				<a href='#' class='nav-link'>Contato</a>
+				<a href='#contato' class='nav-link'>Contato</a>
 			</li>
 		</ul>
 	</header>
 	<main>
-		<section class='hero-section'>
+		<section class='hero-section' id='home'>
 			<div class='section-content'>
 				<div class='hero-details'>
 					<h2 class='title'>Seu checkpoint favorito</h2>
@@ -37,8 +37,8 @@
 					<p class='description'>Entre, pegue seu controle e sinta-se em casa porque aqui, cada pedido é um power-up para o seu dia. Prepare-se para o sabor da nostalgia em cada "byte".</p>	
 					
 					<div class='buttons'>
-					<a href='#' class='button peca-ja'>Peça já</a>
-					<a href='#' class='button contato'>Entre em contato</a>
+					<a href='#menu' class='button peca-ja'>Peça já</a>
+					<a href='#contato' class='button contato'>Entre em contato</a>
 					</div>
 				</div>
 				<div class='hero-image-wrapper'>
@@ -47,8 +47,91 @@
 			</div>
 		</section>
 		
+		
+			
+		<!-- Menu --!>
+			<section class="menu-section" id="menu">
+				<h2 class= 'section-title'>Nosso Menu</h2>
+				<div class="section-content">
+					<ul class='menu-list'>
+						<li class= 'menu-item'>
+						<img src='imagens/sweetroll.png' alt='sweetroll' class='imagem-menu'>
+						<h3 class='name'>"Sweetroll" <br><u>Skyrim</u></h3>
+						<p>Com canela e cobertura de açúcar brilhante, é perfeito pra quem quer sentir o gostinho de um item lendário do nosso inventário gastronômico!</p>
+						</li>
+					
+						<li class= 'menu-item'>
+						<img src='imagens/pieundertale.png' alt='undertalepie' class='imagem-menu'>
+						<h3 class='name'>"Butterscotch"<br><u>Undertale</u></h3>
+						<p>Torta de caramelo e canela alucinante da Toriel. Perfeita para quem quer lembrar os momentos mais emblemáticos da rota pacifista!</p>
+						</li>
+					
+						<li class= 'menu-item'>
+						<img src='imagens/bolomine.png' alt='bolomine' class='imagem-menu'>
+						<h3 class='name'>"Bolo"<br><u>Minecraft</u></h3>
+						<p>Direto da crafting table, sem precisar de um balde de leite, ovo e açúcar na 'bolsa'.</p>
+						</li>
+						
+						<li class= 'menu-item'>
+						<img src='imagens/boozerdr2.png' alt='boozerdr2' class='imagem-menu'>
+						<h3 class='name'>"Booze" <br><u>RDR2</u> (+18)</h3>
+						<p>Garrafa das tavernas de Red Dead Redemption 2, esse drink artesanal é ideal para quem quer beber como um fora da lei. Forte, amadeirado e com personalidade, assim como Arthur Morgan.</p>
+						</li>
+						
+						<li class= 'menu-item'>
+						<img src='imagens/nukecolafallout.png' alt='nukecola' class='imagem-menu'>
+						<h3 class='name'>"Nuke Cola" <br><u>Fallout</u></h3>
+						<p>A mais famosa do mundo pós-apocalíptico! Essa bebida gaseificada traz um sabor retrô e um visual marcante. Perfeita pra quem quer se sentir num refúgio…</p>
+						</li>
+						
+						<li class= 'menu-item'>
+						<img src='imagens/rockroastzeldab.png' alt='rockroast' class='imagem-menu'>
+						<h3 class='name'>"Rock Roast" <br><u>Zelda: BOTW</u></h3>
+						<p>Uma receita robusta e defumada lembra as rochas suculentas das trilhas de Eldin. Um prato quente e cheio de sabor, ideal pra resistir até às temperaturas mais altas.</p>
+						</li>
+						
+						<li class= 'menu-item'>
+						<img src='imagens/poffinpokemon.png' alt='poffin' class='imaCom textura macia e sabor frutado, é a pedida ideal pra quem quer uma pausa leve enquanto se prepara pra próxima batalha. gem-menu'>
+						<h3 class='name'>"Poffin" <br><u>Pokemon Go</u></h3>
+						<p>Com textura macia e sabor frutado, é a pedida ideal pra quem quer uma pausa leve enquanto se prepara pra próxima batalha e fortalecer os laços com seu Pokémon! (ou amigos..)</p>
+						</li>
+						
+						<li class= 'menu-item'>
+						<img src='imagens/limonadapokemonwhite.png' alt='limonada' class='imagem-menu'>
+						<h3 class='name'>"Limonada" <br><u>Pokemon: Black/White</u></h3>
+						<p>A favorita dos treinadores em Unova, servida gelada e com o equilíbrio perfeito entre doce e ácido. Você só a encontra em Unova...e aqui!. Refresca, recarrega e regenera pra aquela batalha.</p>
+						</li>
+						
+						<li class= 'menu-item'>
+						<img src='imagens/slurpjuicefortnite.png' alt='slurpjuice' class='imagem-menu'>
+						<h3 class='name'>"Slurp Juice" <br><u>Fortnite</u></h3>
+						<p>Uma dose e você já estará pronto para o próximo drop! Bebida vibrante que recupera energia como num battle royale. É a escolha certa pra quem quer seguir no ritmo até o top 1.  </p>
+						</li>
+					
+						<li class= 'menu-item'>
+						<img src='imagens/jojacolaterrariasv.png' alt='jojacola' class='imagem-menu'>
+						<h3 class='name'>"Joja Cola" <br><u>Stardew Valley/Terraria</u></h3>
+						<p> A latinha menos duvidosa do mercado...! Vinda do lixo ou vendida por corporações duvidosas, essa bebida gaseificada é puro sabor. Ideal pra quem prefere eficiência e não liga muito pra ética.</p>
+						</li>
+						
+						<li class= 'menu-item'>
+						<img src='imagens/estusflaskdarksouls.png' alt='estusflask' class='imagem-menu'>
+						<h3 class='name'>"Estus Flask" <br><u>Dark Souls (+18)</u></h3>
+						<p> Um clássico dos Reinos Perdidos. Servido em frasco especial, é a recarga de energia perfeita pra quem encara desafios sombrios! Intenso e revigorante.</p>
+						</li>	
+						
+						<li class= 'menu-item'>
+						<img src='imagens/nectarhades.png' alt='nectar' class='imagem-menu'>
+						<h3 class='name'>"Néctar" <br><u>Hades</u> (+18)</h3>
+						<p>Néctar usado como um presente para conquistar favores dos deuses no mundo dos mortos. Uma dose elegante, digna do próprio Olimpo. Experimente para ser convencido pelos céus (ou pelo purgatório) também!..</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
+		
 		<!-- Sobre --!>
-			<section class="sobre-section">
+			<section class="sobre-section" id="sobre">
 			<div class="section-content">
 				<div class="sobre-image-wrapper">
 					<img src='imagens/eupixelartsobre.png' alt='sobre' class='sobre-image'>
@@ -59,14 +142,47 @@
 						<br><br>Aqui, cada bebida é um upgrade. Nossa missão é trazer uma experiência única e especial, e transformar o seu dia com sabores marcantes e aconchegantes, num ambiente que parece ter saído direto das telas do seu computador. Da poção que te desperta até o snack que conforta, tudo é pensado com carinho para fazer você se sentir em casa — ou numa fase bônus da vida. Aproveite, é feito com amor S2.
 					</p>
 					<div class='social-link-list'>
-						<a href='https://github.com/adorals' class="fa fa-github social-link"></a>
-						<a href='https://linkedin.com/in/nunes-izadora' class="fa fa-linkedin social-link"></a>
-						<a href='https://www.instagram.com/adoralls' class="fa fa-instagram social-link"></a>
+						<a href='https://github.com/adorals' class="fa-brands fa-github social-link"></a>
+						<a href='https://linkedin.com/in/nunes-izadora' class="fa-brands fa-linkedin social-link"></a>
+						<a href='https://www.instagram.com/adoralls' class="fa-brands fa-instagram social-link"></a>
 					</div>
 				</div>
 			</div>
 			</section>
 			
+			
+		<!-- Contato --!>
+			<section class="contato-section" id="contato">
+				<h2 class='section-title'>Entre em contato</h2>
+				<div class="section-content contato-layout">
+					<div class="contato-info-list">
+						<div class="contato-info"><i class="fa-solid fa-location-dot"></i>  R. Gastão Gonçalves, 79 - Santa Rosa, Niterói - RJ, 24240-030</div>
+						<div class="contato-info"><i class="fa-solid fa-envelope"></i> izadora.nunes@soulasalle.com.br</div>
+						<div class="contato-info"><i class="fa-solid fa-phone"></i> (21) 98133-2516</div>
+						<div class="contato-info"><i class="fa-regular fa-clock"></i> Segunda - Sábado: 08:00 às 19:00</div>
+						<div class="contato-info"><i class="fa-regular fa-clock"></i> Domingo e feriados: Fechado</div>
+						<div class="contato-info"><i class="fa-solid fa-globe"></i> <a href="https://adorals.github.io/powerupcafe/" target="_blank">adorals.github.io/powerupcafe</a></div>
+					</div>
+
+					<form class="contato-form">
+						<input type="text" placeholder="Seu nome" class="form-input" required>
+						<input type="email" placeholder="Seu email" class="form-input" required>
+						<textarea placeholder="Sua opinião" class="form-input textarea" required></textarea>
+						<textarea placeholder="Suas sugestões" class="form-input textarea"></textarea>
+						<button type="submit" class="submit-button">Registrar</button>
+					</form>
+				</div>
+			</section>
+		
+		
+		<footer class="footer">
+			<p>© 2025 PowerUp Cafe</p>
+			<div class="footer-socials">
+				<a href='https://www.instagram.com/adoralls' class="fa-brands fa-instagram social-link"></a>
+				<a href='https://linkedin.com/in/nunes-izadora' class="fa-brands fa-linkedin social-link"></a>
+				<a href='https://github.com/adorals' class="fa-brands fa-github social-link"></a>
+			</div>
+		</footer>
 	</main>	
 	</body>
 	</html>
