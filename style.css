@@ -250,8 +250,8 @@
 	}
 
 	.sobre-section .sobre-details .text u:hover {
-		color: var(--primary-color); /* muda a cor ao passar o mouse */
-		text-decoration-color: var(--primary-color); /* muda a cor do sublinhado também */
+		color: var(--primary-color);
+		text-decoration-color: var(--primary-color);
 	}
 
 	/*deixar alinhado centralizado em tela pequena*/
